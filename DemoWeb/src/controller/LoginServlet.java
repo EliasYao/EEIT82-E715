@@ -24,7 +24,7 @@ public class LoginServlet extends HttpServlet {
 		String password = request.getParameter("password");
 		System.out.println("789");
 //驗證資料
-		System.out.println("Peter~");
+		System.out.println("YAYA");
 		Map<String, String> errors = new HashMap<String, String>();
 		request.setAttribute("errors", errors);
 		
