@@ -38,7 +38,7 @@ public class LoginServlet extends HttpServlet {
 					"/secure/login.jsp").forward(request, response);
 			return;
 		}
-		
+		System.out.println("456");
 //呼叫Model
 		CustomerBean bean = customerService.login(username, password);
 		
