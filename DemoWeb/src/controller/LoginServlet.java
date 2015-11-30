@@ -22,7 +22,7 @@ public class LoginServlet extends HttpServlet {
 //接收資料
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
-		
+		System.out.println("!23");
 //驗證資料
 		Map<String, String> errors = new HashMap<String, String>();
 		request.setAttribute("errors", errors);
