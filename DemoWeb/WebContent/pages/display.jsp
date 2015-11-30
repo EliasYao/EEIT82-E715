@@ -12,8 +12,7 @@
 </head>
 <body>
 
-<h3>Select Product Table Result : ${fn:length(select)} row(s) selected</h3>
-<c:if test="${not empty select}">
+
 <table>
 	<thead>
 	<tr>
